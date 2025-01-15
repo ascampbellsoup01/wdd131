@@ -1,0 +1,38 @@
+* {
+    background-color: #505033;
+    color: white;
+}
+
+ul li nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F7F0F5;
+}
+
+ul li nav a {
+    color: black;
+    padding: 14px 20px;
+    text-align: center;
+    background-color: #F7F0F5;
+}
+
+nav a:hover {
+    background-color: #08A4BD;
+}
+
+main {
+    width: 500px;
+    display: grid;
+}
+
+.card {
+    background-color: #F7F0F5;
+    padding: 20px;
+    border: 1px solid #08A4BD;
+    box-shadow: 0 2px 4px black;
+}
+
+.card img {
+    width: 100px;
+    height: auto;
+}
