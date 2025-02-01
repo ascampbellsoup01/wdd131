@@ -1,0 +1,27 @@
+
+@media (min-width: 801px) {
+    body {
+        font-size: 2rem;
+    }
+
+    header {
+        padding: 2rem;
+    }
+
+    .main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .weather {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .weather h2::after {
+        content: '⛅';
+        margin-left: 1rem;
+        font-size: 2rem;
+    }
+}

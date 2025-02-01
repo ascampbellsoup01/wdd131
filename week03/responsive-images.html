@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images - Aaron Campbell</title>
+    <meta name="description" content="This is an activity for responsive images.">
+    <meta name="author" content="Aaron Campbell">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 800pxpx)">
+                <source srcset="images/hero-medium.webp" media="(min-width: 650px)">
+                <img src="images/hero-small.webp" alt="San Diego, California Temple" width="500" height="250">
+            </picture>
+        </div>
+    </main>
+</body>
+</html>
