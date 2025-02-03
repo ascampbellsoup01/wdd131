@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hamburger {
+    font-size: 3rem;
+    border: none;
+    color: black;
+    cursor: pointer;
+    background-color: gray;
+    padding: 3rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 3rem;
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 1rem;
+}
+
+nav ul li a {
+    display: flex;
+    padding: 0.5rem 1rem;
+    color: blue;
+    text-decoration: none;
+}
+
+nav ul li a:hover, nav ul li a.current {
+    background-color: lightgray;
+}
+
+@media (max-width: 767px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+header, main {
+    padding: 1rem;
+}
+
+figure {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+}
+
+.temple-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+.temple-card h2 {
+    margin-top: 0;
+}

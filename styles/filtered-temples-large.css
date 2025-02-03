@@ -1,0 +1,47 @@
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+
+    body {
+        padding: 0 2rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        gap: 2rem;
+    }
+
+    header, main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    .temple {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    figure {
+        margin: 0;
+        padding: 1rem;
+        background-color: #f4f4f4;
+        border-radius: 5px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
