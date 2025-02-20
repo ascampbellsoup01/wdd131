@@ -20,18 +20,21 @@
                 <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
+        <div class="start"><img src="images/GamesNews.webp" alt="company logo" loading="lazy" ></div>
     </header>
     <main>
-        <h2>Contact Us</h2>
-        <label for="writtenReview">First Name:</label>
-        <textarea></textarea>
-        <label for="writtenReview">Last Name:</label>
-        <textarea></textarea>
-        <label for="writtenReview">Email:</label>
-        <textarea id="writtenReview" name="writtenReview"></textarea>
-        <label for="writtenReview">How can we help? Please message us!</label>
-        <textarea></textarea>
-        <input type="submit" value="Send Message">
+        <form action="thanks.html">
+            <h2>Contact Us</h2>
+            <label for="writtenReview">First Name:</label>
+            <input type="text" required>
+            <label for="writtenReview">Last Name:</label>
+            <input type="text" required>
+            <label for="writtenReview">Email:</label>
+            <input type="text" required>
+            <label for="writtenReview">How can we help? Please message us!</label>
+            <input type="textarea" required>
+            <input type="submit" value="Send Message">
+        </form>
     </main>
     <footer>
         <p>&copy;<span id="currentyear"></span> Aaron Campbell, California</p>

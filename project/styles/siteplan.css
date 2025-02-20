@@ -48,6 +48,10 @@ main {
     display: grid;
 }
 
+main img {
+    width: 250px;
+}
+
 footer {
     display: grid;
     background-color: var(--tertiary-color);
@@ -98,4 +102,19 @@ h3, img, p {
 .about h2, .about p {
     margin: 10px 0;
     width: 500px;
+}
+
+.start {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.start img {
+    display: grid;
+    grid-column: 3/4;
+    width: 500px;
+}
+
+form {
+    padding: 100px 0;
 }
